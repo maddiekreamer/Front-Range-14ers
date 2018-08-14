@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    font-size: 66px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+.center-block {
+    vertical-align: middle;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+.mtn {
+    text-align: center;
+}
