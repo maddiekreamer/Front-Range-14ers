@@ -3,6 +3,8 @@ h1 {
     padding: 10px;
     display: block;
     font-size: 66px;
+    margin-top: 50px;
+
 }
 
 h2 {
@@ -15,8 +17,15 @@ p {
     text-align: justify;
 }
 
+form {
+    margin-bottom: 100px;
+}
+
 .center-block {
-    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .img {
@@ -24,6 +33,7 @@ p {
     height: 250px;
     padding: 5px;
 }
+
 .mtn {
     text-align: center;
 }

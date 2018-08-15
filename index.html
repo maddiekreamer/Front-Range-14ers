@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Front Range 14ers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -15,7 +14,7 @@
 
 <body>
     <div class="container-fullwidth">
-        <nav class="navbar navbar-expand-lg navbar-lite bg-lite">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Front Range 14ers</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="index.html">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -51,26 +50,27 @@
             <div class="col-6 center-block">
                 <h1>Front Range 14ers</h1>
                 <h2>Hiking at 14,000ft is fun, but it needs to be done safely.</h2>
-                <p>Lorem ipsum dolor amet selfies jean shorts cornhole biodiesel plaid readymade glossier helvetica portland.
-                    Butcher umami migas green juice keffiyeh vice tattooed. Cloud bread neutra brooklyn hot chicken activated
-                    charcoal butcher iceland ennui lumbersexual gluten-free. Edison bulb hell of portland keytar activated
-                    charcoal neutra mixtape tumeric selvage. </p>
-                <form>
+                <p>Front Range 14ers is here to help you check the weather to ensure a fun and safe experience. Alpine starts
+                    (pre-dawn starts) are recommended, as these climbs can take 7-8+ hours and storms typically hit in the
+                    afternoon. Try to get to treeline by noon. As a rule of thumb, a 20% or below chance of precip is a pretty
+                    good bet you'll have a clear afternoon. Click on the image of the mountain you are interested in climbing
+                    to check the forecast and see if it is safe to hike!</p>
+                <form id="myForm">
                     <h2>Never Miss a Thing!</h2>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="checkbox">
                         <label class="form-check-label" for="exampleCheck1">I wish to receive emails</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
                 </form>
             </div>
             <div class="col">
